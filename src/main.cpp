@@ -24,7 +24,7 @@ Ticker timerMicrophoneController(checkMicrophones, 20000); // 4 sec
 
 void setup()
 {
-  Serial.begin(112500);
+  Serial.begin(115200);
   timerMicrophoneController.start();
 
   Serial.println("Setup DONE\n\n");
